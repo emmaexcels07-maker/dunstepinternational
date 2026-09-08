@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: dunstep-nigeria
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
